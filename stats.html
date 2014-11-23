@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>App Builder</title>
+    <link rel="SHORTCUT ICON" href="img/house.jpg" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/builder.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="">Start Building Stuff</a>
+            </li>
+            <li><a href="index.html">HomeScreen</a>
+            </li>
+            <li><a href="guide.html#guide">Check Guide</a>
+            </li>
+            <li><a href="#cost">Cost Analysis</a>
+            </li>
+            <li><a href="#calculate">Calculate</a>
+            </li>
+            <li><a href="#schedule" onclick='alert("We are sorry download the latest update to check if this functionality has been implemented")'>Schedule</a>
+            </li>
+            <li><a href="index.html#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="homescreen" class="header">
+        <div class="vert-text">
+            <h1>Start Building</h1>
+            <h3>
+                <em>We</em> offer you guide on how to build any kind of house and the cost analysis and schedule<br>
+                <em>You</em> just make it happen</h3>
+            <a href="#cost" class="btn btn-default btn-lg">Let's do some budgeting</a>
+        </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="cost" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-3 text-justify">
+                    <h1>Cost analysis</h1>
+                    <p>We would want to make some assumptions.
+                    <ul>
+                    <li>First, when we say a normal bungalow, we mean a three bed room bungalow covering about 50 metres by 50 metres.</li>
+                    <li>Then, a storey building would normally be a standard duplex covering about 80metres by 80metres</li>
+                     </ul>
+                    </p>
+                    <table class="table">
+  <tr id="foundation">
+    <td>Foundation</td>
+    <td>The foundation for      
+      <table class="table">
+        <tr>
+          <td width="286">materials</td>
+          <td width="120">Type</td>
+          <td width="70">cost (naira)</td>
+        </tr>
+        <tr>
+          <td>sand, red mud, gravel or chippings and blocks</td>
+          <td>Normal Bungalow</td>
+          <td>200000-500000</td>
+        </tr>
+        <tr>
+          <td>All in bungalow plus hardcore rocks and rod(rod sizes depend on the strength needed)</td>
+          <td>Storey Building</td>
+          <td>700000-infinity</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr id="block">
+    <td class = "panel-heading">Block Work</td>
+    <td>Blocks would be
+      charged based on the height above the ground. The minimum cost for block work of a bungalow would be about 500 000 naira. A storey building would normally be at least a million naira.
+      <table class="table">
+      <tr>
+        <td width="147">9 inches hollow for storey buildings</td>
+        <td width="310" rowspan="4">Number of blocks required will depend largely on the size of building in question and since all blocks have the same height and length, the number of blocks required will be the same assuming the block did not break too much (hollow blocks break easily).</td>
+      </tr>
+      <tr>
+        <td>6 inches hollow</td>
+        </tr>
+      <tr>
+        <td>6 inches solid</td>
+        </tr>
+      <tr>
+        <td>5 inches solid</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr id="lintel">
+    <td>Lintel</td>
+    <td>This is a step that takes the least amount of money. The materials involved include garvel, sharp sand and iron rods. Lets say maybe 70k for bungalow and above 200k for storey building</td>
+  </tr>
+  <tr id="decking">
+    <td>Deck</td>
+    <td>The deck is always expensive if it isa concrete deck. A wooden deck won't cost more than 100k but a concrete deck absorbs at least 500k, naturally a concrete deck is 6 inches thick. We may say that a bag of cement can get a coverage of about 5ft by 5ft or 1.5m x1.5m.</td>
+  </tr>
+  <tr id="roofing">
+    <td>Roofing</td>
+    <td>The rafter skeleton alone takes up almost half of the money. The materials and workmanship cost about 150k for a bungalow and 600k for a duplex.</td>
+  </tr>
+  <tr id="plastering">
+    <td >Plastering</td>
+    <td>The number of bags of cement is always very high and the cement sand would also be many trips. The price of sand is varied widely from location to location in Nigeria. So I would advise that you use the calculator to get how much. </td>
+  </tr>
+  <tr id="plumbing">
+    <td>Plumbing</td>
+    <td>This Phase will surely take up at least 500k if you need a sumo, a couple tanks or reservours and every other pipelines. But if it is only drainage, it could be accomplished with some 100k.</td>
+  </tr>
+  <tr id="electricity">
+    <td>Electrical Fittings</td>
+    <td>Wiring house is normally a contract of 40k per flat in Aba. But it may vary widely over other Geographical settings. The cost of the materials for the electrical is roughly 50k for bungalow and 200k for storey buildings.</td>
+  </tr>
+  <tr id="painting">
+    <td>Painting</td>
+    <td>Painting a room should cost about 2k and the cost of painting the external walls would equal the cost of painting the internals divided by three. I advise that you use the calculator provided to ascertain how much you will spend on them.</td>
+  </tr>
+  <tr id="decoration">
+    <td>Decoration</td>
+    <td>The interior decoration is the brain child of the interior decorator and the amount to be spent will depend largely on the taste of the owner. Bear in mind that this is a part where most people like to skip steps for the sake of saving money. My advice is that you save 500k if you have a bungalow and a high taste and 2million if you are trying to decorate a duplex to sparkling standards.</td>
+  </tr>
+  <tr id="finishing">
+    <td>Finishing</td>
+    <td>Every other miscellaneous expenditure goes here. These would include swimming pool, house lawns, flower planting, and other stuff to enhance luxury. This step is oftten always skipped.(smiles...).</td>
+  </tr>
+</table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Services -->
+    <div id="about" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Our Services</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-rocket"></i>
+                        <h4>Web Hosting</h4>
+                        <p>We help you take your business to the cloud by creating efficient and beautiful web sites for you and helping you host them!</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-magnet"></i>
+                        <h4>Teaching Programming</h4>
+                        <p>Need to know how to create beautiful designs or how to program in any programming language? Our team 
+                            can recreate you into a techie!</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-shield"></i>
+                        <h4>Database Security</h4>
+                        <p>you may need extra security with your networks and databases. We can create or renovate your 
+                            system to very secure. Now, that's just how we row.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-pencil"></i>
+                        <h4>Application Creation</h4>
+                        <p>We've been helping people create applications that solve a wide variety of problems since we 
+                            started to exist and we are still here for you!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+            <h1>There is God o! So it is never too late to start work...</h1>
+        </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div id="calculate" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Calculte Quantities Here</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                <form id="form1" class="form-control" name="form1" method="post" action="" style="height: auto !important;">
+                    <fieldset>
+                  <input name="op1" type="number" id="op1" placeholder="0" checked="checked" />
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspadd
+                  <input name="op" type="radio" id="op" value="+" checked="checked" />
+                  <input name="op" type="radio" id="op" value="-"  />subtract</p>
+                  <p>
+                  multiply
+                  <input name="op" type="radio" id="op" value="x" />
+                  <input name="op" type="radio" value="/" id ="op" />divide
+                  </p>
+                  <input class ="number"type ="number" id ="op2" placeholder="0"/><br><br>
+                  <input type="button" id="calc" value="equals" class="btn btn-primary">
+                  </fieldset>
+                    <hr>
+                    <fieldset >
+                        <label>Result goes here</label>
+                        <input type="number" value="result" id="result" disabled>
+                 </fieldset>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div id="schedule"class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3>Download the Next Update to check if the scheduler has been implemented and also to have a working feedback form.</h3>
+                  <!--  <a href="#" class="btn btn-lg btn-default">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Map -->
+    <div id="contact" class="map">
+       <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form role="form" method="post" action="email.php" class="contact">
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control" type="text" name="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label for="email">Email Address</label>
+                                <input class="form-control" type="email" name="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label for="message">Message</label>
+                                <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <input type="reset" class="btn btn-lg btn-default" value="Clear"/>
+                                <input id ="feedback"type="submit" class="btn btn-lg btn-success" value="Send"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- /Map -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    h1>We sincerely hope you enjoyed this app.</h1>
+                    <div class="top-scroll">
+                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                   <p>Copyright &copy; Harness 2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/compute.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
